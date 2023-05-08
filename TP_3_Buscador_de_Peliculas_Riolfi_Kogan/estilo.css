@@ -1,0 +1,45 @@
+body {
+    background-color: #000000;
+  }
+  
+  form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #e4cece;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="search"],
+  input[type="number"],
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .btn-outline-success {
+    margin-top: 10px;
+  }
+  
+  #valores {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  #valores li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #d33f25;
+    background-color: #f86e7a;
+    border-radius: 5px;
+  }
+  
+  #valores li:hover {
+    background-color: #d33f25;
+  }
